@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-list</title>
+    <script src="https://kit.fontawesome.com/97f703eeb2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1 class="heading">Task List</h1>
+        <label class="task">Add a new task</label>
+        <input type="text" name="task" class="task-input">
+        <button class="add-task" onclick="addTask()">+</button>
+        <button onclick="clearInput()">Clear</button>
+        <section class="task-container" style="border: solid black">
+            <ul class="task-list" ></ul>
+        </section>
+    </main>
+    <footer>
+        <p>Sinthuyan</p>
+    </footer>
+</body>
+</html>
