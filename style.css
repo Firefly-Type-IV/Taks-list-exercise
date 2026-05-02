@@ -62,7 +62,7 @@ button {
 
 .task-container {
     margin-top: 20px;
-    border: 1px solid #ddd !important;
+    border: 1px solid #ddd;
     border-radius: 4px;
     padding: 15px;
 }
@@ -79,21 +79,21 @@ button {
     border-left: 4px solid #4CAF50;
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Vertically centers the text and button */
+    align-items: center;
     gap: 10px;
     font-size: 14px;
 }
 
 .task-text {
-    flex-grow: 1; /* Allows the text to take up the remaining space */
-    word-break: break-word; /* Prevents long words from overflowing or breaking the layout */
+    flex-grow: 1;
+    word-break: break-word;
     overflow-wrap: break-word;
     margin-right: 5px;
 }
 
 .delete-btn {
-    flex-shrink: 0; /* Prevents the button from shrinking or warping */
-    background-color: #ff4d4f; /* Good practice to distinguish the delete button */
+    flex-shrink: 0;
+    background-color: #ff4d4f;
 }
 
 footer {
